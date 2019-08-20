@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>player</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="song-poster">
+            <img class="music-poster" src="./img/everglow.jpg" alt="">
+            <audio id="audio" src="./source/Coldplay,Gwyneth Paltrow - Everglow.mp3"></audio>
+        </main>
+        <div class="song-controls">
+            <div class="prev-music">
+                <span class="iconfont icon-shangyishou"></span>
+            </div>
+            <div class="btn">
+                <span class="iconfont icon-Player"></span>
+            </div>
+            <div class="progress">
+                <div class="current-time"></div>
+                <div class="pro-box">
+                    <div class="pro-bg"></div>
+                    <div class="pro-active">
+                        <div class="radio-box">
+                            <span class="radio"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="duration-time"></div>
+            </div>
+            <div class="next-music">
+                <span class="iconfont icon-next"></span>
+            </div>
+            <!-- div.vlo -->
+            <div class="volume">
+                <span class="iconfont icon-volume"></span>
+                <!-- <span class="iconfont icon-mute"></span> -->
+            </div>
+            <div class="vol-box">
+                <div class="vol-bg"></div>
+                <div class="vol-active">
+                    <div class="volRadio-box">
+                        <div class="volRadio"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
